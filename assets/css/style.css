@@ -10,12 +10,14 @@ Fonts:
 For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
 For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
 *{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
 .container-fluid {
 	padding: 0;
-
+	background-color: #fff;
+	border: none;
 }
 
 .header {
@@ -24,19 +26,19 @@ For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
 
 .navbar {
 	border-radius: 0;
-	padding: 1em 0em 1em 0em;
-
+	border-bottom: .2em solid #ddd;
 }
 
-.navbar-brand {
-	padding-left: 1.5em;
-	margin-top: 1em;
+.navbar-brand{
+	padding: 1.5em;
 	background-color: #4aaaa5;
-
+	font-size: 2em;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #fff;
 }
 
 .navbar-nav {
-	margin-top: 1em;
+	margin: 1.5em 0em 0em 2em;
 }
 
 .navbar-header {
@@ -45,7 +47,14 @@ For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
 }
 
 .navbar-collapse {
+}
 
+.navbar-toggle {
+	margin: 1.5em;
+}
+
+#pipe{
+	margin-left: 1.5em;
 }
 
 #github {
