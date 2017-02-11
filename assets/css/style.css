@@ -1,0 +1,67 @@
+/*Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+Fonts:
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
+*{
+
+}
+
+.container-fluid {
+	padding: 0;
+
+}
+
+.header {
+
+}
+
+.navbar {
+	border-radius: 0;
+	padding: 1em 0em 1em 0em;
+
+}
+
+.navbar-brand {
+	padding-left: 1.5em;
+	margin-top: 1em;
+	background-color: #4aaaa5;
+
+}
+
+.navbar-nav {
+	margin-top: 1em;
+}
+
+.navbar-header {
+	height: 6em;
+	padding-left: 6em;
+}
+
+.navbar-collapse {
+
+}
+
+#github {
+	color: #000;
+	font-size: 4em;
+
+}
+
+#linkedin {
+	color: #0077B5;
+	font-size: 4em;
+
+}
+
+/*style fa stack overflow to imitate assignment screenshot*/
+#stackoverflow {
+	background-color: #FF9900;
+	color: #fff;
+}
