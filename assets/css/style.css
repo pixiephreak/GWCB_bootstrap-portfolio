@@ -104,9 +104,7 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 #stackoverflow {
 	background-color: #FF9900;
 	color: #fff;
-	font-size: 1.25em;
-	padding: .9em;
+	font-size: 3em;
+	padding: .1em;
 	border-radius: 10px;
-	position: relative;
-	bottom: 15px;
 }
