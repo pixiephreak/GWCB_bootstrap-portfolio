@@ -55,6 +55,8 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 .navbar-header {
 	height: 6em;
 	padding-left: 7em;
+	/*doesn't override bootstrap css :(*/
+	color: #fff;
 }
 
 .navbar-collapse {
