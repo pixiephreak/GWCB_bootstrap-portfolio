@@ -76,6 +76,7 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 	padding: 2em;
 	margin: 2em;
 	background-color: #fff;
+	overflow: hidden;
 }
 
 .body-content h2 {
@@ -89,11 +90,28 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 	border: .1em solid #ddd;
 	/*top right bottom left*/
 	margin: 0em 1.5em 1em 0em;
+	clear: both;
 }
 
 .body-content p {
 	/*top right bottom left*/
 
+}
+
+/*source(lines 99-113): http://stackoverflow.com/questions/26010257/bootstrap-3-css-image-caption-overlay;*/
+div.desc{
+    background-color: #000;
+    bottom: 100px;
+    background-color: #4aaaa5;
+    color: #fff;
+    left: 0;
+    position: relative;
+    width: 100%;
+}
+
+.fix{
+    width: 100%;
+    padding: 0px;
 }
 
 #footer {
