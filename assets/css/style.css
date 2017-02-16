@@ -23,17 +23,18 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 
 .container-fluid {
 	padding: 0;
-	background-color: #fff;
+	background-image: url("../images/ps_neutral/ps_neutral_@2X.png");
 	border: none;
 }
 
-.header {
-
+.navbar-collapse {
+	background-color: #fff;
 }
 
 .navbar {
 	border-radius: 0;
 	border-bottom: .1em solid #ddd;
+	background-color: #fff;
 }
 
 .navbar-brand{
@@ -41,7 +42,10 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 	background-color: #4aaaa5;
 	font-size: 2em;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #fff;
+	margin-left: 0;
+	line-height: 1em;
+	width: 9em;
+	text-align: center;
 }
 
 .navbar-nav {
@@ -58,6 +62,7 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 
 .navbar-toggle {
 	margin: 1.5em;
+	background-color: #ccc;
 }
 
 #pipe{
@@ -68,6 +73,7 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 	border: .1em solid #ddd;
 	padding: 2em;
 	margin: 2em;
+	background-color: #fff;
 }
 
 .body-content h2 {
@@ -86,6 +92,19 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 .body-content p {
 	/*top right bottom left*/
 
+}
+
+#footer {
+	background-color: #666;
+	color: #ccc;
+	border-top: 10px solid  #4aaaa5;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#footer p {
+	margin: 2em;
 }
 
 #github {
@@ -107,4 +126,14 @@ h1, h2 {font-family: 'Georgia', Times, Times New Roman, serif;}
 	font-size: 3em;
 	padding: .1em;
 	border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+	.navbar-header {
+		padding: 0;
+		background-color: #4aaaa5;
+	}
+	.navbar-toggle {
+		margin-right: 3em;
+	}
 }
